@@ -11,16 +11,16 @@
 		E48F97B82A1161B3009912CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F97B72A1161B3009912CA /* ContentView.swift */; };
 		E48F97BA2A1161B5009912CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48F97B92A1161B5009912CA /* Assets.xcassets */; };
 		E48F97BD2A1161B5009912CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48F97BC2A1161B5009912CA /* Preview Assets.xcassets */; };
-		E48F97D82A116255009912CA /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F97D42A116254009912CA /* Exercises.swift */; };
-		E4BF10052A11866D00CC2D2E /* NavBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10042A11866D00CC2D2E /* NavBasics.swift */; };
-		E4BF10072A118A0000CC2D2E /* NavWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10062A118A0000CC2D2E /* NavWithButtons.swift */; };
-		E4BF10092A118CD900CC2D2E /* NavSepFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10082A118CD900CC2D2E /* NavSepFiles.swift */; };
-		E4BF100B2A118D5300CC2D2E /* SeparateFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF100A2A118D5300CC2D2E /* SeparateFileView.swift */; };
-		E4BF100D2A1190EE00CC2D2E /* DataINTOViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF100C2A1190EE00CC2D2E /* DataINTOViews.swift */; };
-		E4BF100F2A1193DC00CC2D2E /* TwoWayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF100E2A1193DC00CC2D2E /* TwoWayData.swift */; };
-		E4BF10112A119A5600CC2D2E /* MultiLevelSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10102A119A5600CC2D2E /* MultiLevelSharingView.swift */; };
-		E4BF10132A11A09000CC2D2E /* ListsInNavViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10122A11A09000CC2D2E /* ListsInNavViews.swift */; };
-		E4BF10152A11C14A00CC2D2E /* NavStackUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10142A11C14A00CC2D2E /* NavStackUpdateView.swift */; };
+		E4BF10412A11CD0800CC2D2E /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10402A11CD0800CC2D2E /* Exercises.swift */; };
+		E4BF104B2A11CE3500CC2D2E /* MultiLevelSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10432A11CE3500CC2D2E /* MultiLevelSharingView.swift */; };
+		E4BF104C2A11CE3500CC2D2E /* TwoWayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10442A11CE3500CC2D2E /* TwoWayData.swift */; };
+		E4BF104D2A11CE3500CC2D2E /* SeparateFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10452A11CE3500CC2D2E /* SeparateFileView.swift */; };
+		E4BF104E2A11CE3500CC2D2E /* NavStackUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10462A11CE3500CC2D2E /* NavStackUpdateView.swift */; };
+		E4BF104F2A11CE3500CC2D2E /* NavSepFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10472A11CE3500CC2D2E /* NavSepFiles.swift */; };
+		E4BF10502A11CE3500CC2D2E /* ListsInNavViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10482A11CE3500CC2D2E /* ListsInNavViews.swift */; };
+		E4BF10512A11CE3500CC2D2E /* DataINTOViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10492A11CE3500CC2D2E /* DataINTOViews.swift */; };
+		E4BF10522A11CE3500CC2D2E /* NavWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF104A2A11CE3500CC2D2E /* NavWithButtons.swift */; };
+		E4BF10542A11CE4C00CC2D2E /* NavBasicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10532A11CE4C00CC2D2E /* NavBasicsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,16 +29,16 @@
 		E48F97B72A1161B3009912CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E48F97B92A1161B5009912CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48F97BC2A1161B5009912CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E48F97D42A116254009912CA /* Exercises.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercises.swift; path = Chapter15/Exercises.swift; sourceTree = SOURCE_ROOT; };
-		E4BF10042A11866D00CC2D2E /* NavBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBasics.swift; sourceTree = "<group>"; };
-		E4BF10062A118A0000CC2D2E /* NavWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithButtons.swift; sourceTree = "<group>"; };
-		E4BF10082A118CD900CC2D2E /* NavSepFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSepFiles.swift; sourceTree = "<group>"; };
-		E4BF100A2A118D5300CC2D2E /* SeparateFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateFileView.swift; sourceTree = "<group>"; };
-		E4BF100C2A1190EE00CC2D2E /* DataINTOViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataINTOViews.swift; sourceTree = "<group>"; };
-		E4BF100E2A1193DC00CC2D2E /* TwoWayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayData.swift; sourceTree = "<group>"; };
-		E4BF10102A119A5600CC2D2E /* MultiLevelSharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLevelSharingView.swift; sourceTree = "<group>"; };
-		E4BF10122A11A09000CC2D2E /* ListsInNavViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsInNavViews.swift; sourceTree = "<group>"; };
-		E4BF10142A11C14A00CC2D2E /* NavStackUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackUpdateView.swift; sourceTree = "<group>"; };
+		E4BF10402A11CD0800CC2D2E /* Exercises.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
+		E4BF10432A11CE3500CC2D2E /* MultiLevelSharingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLevelSharingView.swift; sourceTree = "<group>"; };
+		E4BF10442A11CE3500CC2D2E /* TwoWayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayData.swift; sourceTree = "<group>"; };
+		E4BF10452A11CE3500CC2D2E /* SeparateFileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparateFileView.swift; sourceTree = "<group>"; };
+		E4BF10462A11CE3500CC2D2E /* NavStackUpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavStackUpdateView.swift; sourceTree = "<group>"; };
+		E4BF10472A11CE3500CC2D2E /* NavSepFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavSepFiles.swift; sourceTree = "<group>"; };
+		E4BF10482A11CE3500CC2D2E /* ListsInNavViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsInNavViews.swift; sourceTree = "<group>"; };
+		E4BF10492A11CE3500CC2D2E /* DataINTOViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataINTOViews.swift; sourceTree = "<group>"; };
+		E4BF104A2A11CE3500CC2D2E /* NavWithButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavWithButtons.swift; sourceTree = "<group>"; };
+		E4BF10532A11CE4C00CC2D2E /* NavBasicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBasicsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,10 @@
 		E48F97B42A1161B3009912CA /* Chapter16 */ = {
 			isa = PBXGroup;
 			children = (
-				E48F97D42A116254009912CA /* Exercises.swift */,
+				E4BF10402A11CD0800CC2D2E /* Exercises.swift */,
 				E48F97B52A1161B3009912CA /* Chapter16App.swift */,
 				E48F97B72A1161B3009912CA /* ContentView.swift */,
-				E48F97D52A116255009912CA /* Demos */,
+				E4BF10422A11CE3500CC2D2E /* Demos */,
 				E48F97B92A1161B5009912CA /* Assets.xcassets */,
 				E48F97BB2A1161B5009912CA /* Preview Content */,
 			);
@@ -89,22 +89,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E48F97D52A116255009912CA /* Demos */ = {
+		E4BF10422A11CE3500CC2D2E /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				E4BF10042A11866D00CC2D2E /* NavBasics.swift */,
-				E4BF10062A118A0000CC2D2E /* NavWithButtons.swift */,
-				E4BF10082A118CD900CC2D2E /* NavSepFiles.swift */,
-				E4BF100A2A118D5300CC2D2E /* SeparateFileView.swift */,
-				E4BF100C2A1190EE00CC2D2E /* DataINTOViews.swift */,
-				E4BF100E2A1193DC00CC2D2E /* TwoWayData.swift */,
-				E4BF10102A119A5600CC2D2E /* MultiLevelSharingView.swift */,
-				E4BF10122A11A09000CC2D2E /* ListsInNavViews.swift */,
-				E4BF10142A11C14A00CC2D2E /* NavStackUpdateView.swift */,
+				E4BF10532A11CE4C00CC2D2E /* NavBasicsView.swift */,
+				E4BF10432A11CE3500CC2D2E /* MultiLevelSharingView.swift */,
+				E4BF10442A11CE3500CC2D2E /* TwoWayData.swift */,
+				E4BF10452A11CE3500CC2D2E /* SeparateFileView.swift */,
+				E4BF10462A11CE3500CC2D2E /* NavStackUpdateView.swift */,
+				E4BF10472A11CE3500CC2D2E /* NavSepFiles.swift */,
+				E4BF10482A11CE3500CC2D2E /* ListsInNavViews.swift */,
+				E4BF10492A11CE3500CC2D2E /* DataINTOViews.swift */,
+				E4BF104A2A11CE3500CC2D2E /* NavWithButtons.swift */,
 			);
-			name = Demos;
-			path = Chapter15/Demos;
-			sourceTree = SOURCE_ROOT;
+			path = Demos;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -176,18 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BF100D2A1190EE00CC2D2E /* DataINTOViews.swift in Sources */,
-				E4BF10092A118CD900CC2D2E /* NavSepFiles.swift in Sources */,
-				E4BF10052A11866D00CC2D2E /* NavBasics.swift in Sources */,
+				E4BF10502A11CE3500CC2D2E /* ListsInNavViews.swift in Sources */,
+				E4BF104B2A11CE3500CC2D2E /* MultiLevelSharingView.swift in Sources */,
+				E4BF10522A11CE3500CC2D2E /* NavWithButtons.swift in Sources */,
+				E4BF10512A11CE3500CC2D2E /* DataINTOViews.swift in Sources */,
+				E4BF104D2A11CE3500CC2D2E /* SeparateFileView.swift in Sources */,
 				E48F97B82A1161B3009912CA /* ContentView.swift in Sources */,
-				E4BF10112A119A5600CC2D2E /* MultiLevelSharingView.swift in Sources */,
-				E4BF100B2A118D5300CC2D2E /* SeparateFileView.swift in Sources */,
-				E4BF100F2A1193DC00CC2D2E /* TwoWayData.swift in Sources */,
-				E4BF10132A11A09000CC2D2E /* ListsInNavViews.swift in Sources */,
-				E4BF10152A11C14A00CC2D2E /* NavStackUpdateView.swift in Sources */,
-				E4BF10072A118A0000CC2D2E /* NavWithButtons.swift in Sources */,
-				E48F97D82A116255009912CA /* Exercises.swift in Sources */,
 				E48F97B62A1161B3009912CA /* Chapter16App.swift in Sources */,
+				E4BF104F2A11CE3500CC2D2E /* NavSepFiles.swift in Sources */,
+				E4BF104E2A11CE3500CC2D2E /* NavStackUpdateView.swift in Sources */,
+				E4BF104C2A11CE3500CC2D2E /* TwoWayData.swift in Sources */,
+				E4BF10412A11CD0800CC2D2E /* Exercises.swift in Sources */,
+				E4BF10542A11CE4C00CC2D2E /* NavBasicsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
