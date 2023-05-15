@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9FA57FD2-D587-4700-B339-1CBD76FB1FE4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C453ECE-A4BB-466D-B6CE-01027FAEFC80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter15/Demos/MultiLevelSharingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "ThirdLevelOfChildren"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "991691CC-8518-47F6-8955-A231E4295248"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter15/Demos/NavStackUpdateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "remainingColors"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "991691CC-8518-47F6-8955-A231E4295248 - c36fbaf1d61a461c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter16.NestedLink.body.getter : some"
+                  moduleName = "Chapter16"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikepanitz/Desktop/BIT%20381%20-%202023%20Spring/Chapter16/Chapter15/Demos/NavStackUpdateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "229">
+               </Location>
+               <Location
+                  uuid = "991691CC-8518-47F6-8955-A231E4295248 - d7c0a0e8c803ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter16.NestedLink.remainingColors.getter : Swift.Array&lt;SwiftUI.Color&gt;"
+                  moduleName = "Chapter16"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikepanitz/Desktop/BIT%20381%20-%202023%20Spring/Chapter16/Chapter15/Demos/NavStackUpdateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "991691CC-8518-47F6-8955-A231E4295248 - d7c0a0e8c803ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter16.NestedLink.remainingColors.getter : Swift.Array&lt;SwiftUI.Color&gt;"
+                  moduleName = "Chapter16"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikepanitz/Desktop/BIT%20381%20-%202023%20Spring/Chapter16/Chapter15/Demos/NavStackUpdateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "085E0F56-053F-412E-9529-E73EA742134A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter15/Demos/NavStackUpdateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "085E0F56-053F-412E-9529-E73EA742134A - a25a0c3181736a96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter16.NavStackUpdateView.body.getter : some"
+                  moduleName = "Chapter16"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikepanitz/Desktop/BIT%20381%20-%202023%20Spring/Chapter16/Chapter15/Demos/NavStackUpdateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "085E0F56-053F-412E-9529-E73EA742134A - b2ac0455d4bb950a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in Chapter16.NavStackUpdateView.body.getter : some"
+                  moduleName = "Chapter16"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikepanitz/Desktop/BIT%20381%20-%202023%20Spring/Chapter16/Chapter15/Demos/NavStackUpdateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "052C0254-2E16-46BA-82A7-53C88FE8A393"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter15/Demos/NavStackUpdateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98A57447-4519-4464-A2A1-8A6CBCF60BD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter15/Demos/NavStackUpdateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
