@@ -93,14 +93,14 @@
 			isa = PBXGroup;
 			children = (
 				E4BF10532A11CE4C00CC2D2E /* NavBasicsView.swift */,
-				E4BF10432A11CE3500CC2D2E /* MultiLevelSharingView.swift */,
-				E4BF10442A11CE3500CC2D2E /* TwoWayData.swift */,
-				E4BF10452A11CE3500CC2D2E /* SeparateFileView.swift */,
-				E4BF10462A11CE3500CC2D2E /* NavStackUpdateView.swift */,
-				E4BF10472A11CE3500CC2D2E /* NavSepFiles.swift */,
-				E4BF10482A11CE3500CC2D2E /* ListsInNavViews.swift */,
-				E4BF10492A11CE3500CC2D2E /* DataINTOViews.swift */,
 				E4BF104A2A11CE3500CC2D2E /* NavWithButtons.swift */,
+				E4BF10472A11CE3500CC2D2E /* NavSepFiles.swift */,
+				E4BF10452A11CE3500CC2D2E /* SeparateFileView.swift */,
+				E4BF10492A11CE3500CC2D2E /* DataINTOViews.swift */,
+				E4BF10442A11CE3500CC2D2E /* TwoWayData.swift */,
+				E4BF10432A11CE3500CC2D2E /* MultiLevelSharingView.swift */,
+				E4BF10482A11CE3500CC2D2E /* ListsInNavViews.swift */,
+				E4BF10462A11CE3500CC2D2E /* NavStackUpdateView.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
