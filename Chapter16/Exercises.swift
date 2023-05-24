@@ -1,15 +1,15 @@
 import SwiftUI
 
-class RPGCharacter: ObservableObject, Identifiable, Equatable {
+class RPGCharacter: Identifiable, Equatable {
     static func == (lhs: RPGCharacter, rhs: RPGCharacter) -> Bool {
         lhs.id == rhs.id
     }
     
     var id = UUID()
     
-    @Published var name: String
-    @Published(wrappedValue: 100) var hitPoints: Int
-    @Published(wrappedValue: 20) var damage: Int
+    var name: String
+    var hitPoints: Int
+    var damage: Int
     
     init(name: String, hitPoints: Int, damage: Int) {
         self.name = name
@@ -34,6 +34,11 @@ class RPGCharacterStore: ObservableObject {
             characters[index] = character
         }
     }
+    
+    func addCharacter() {
+        let newCharacter = RPGCharacter(name: "New Character", hitPoints: 100, damage: 10)
+        characters.append(newCharacter)
+    }
 }
 
 struct ExercisesView: View {
@@ -42,7 +47,7 @@ struct ExercisesView: View {
     var body: some View {
         NavigationView {
             List(characterStore.characters) { character in
-                NavigationLink(destination: CharacterDetailView(character: character, characterStore: characterStore)) {
+                NavigationLink(destination: CharacterDetailView(character: characterBinding(for: character), characterStore: characterStore)) {
                     VStack(alignment: .leading) {
                         Text(character.name)
                             .font(.headline)
@@ -52,12 +57,28 @@ struct ExercisesView: View {
                 }
             }
             .navigationTitle("Characters")
+            .navigationBarItems(trailing:
+                Button(action: {
+                    characterStore.addCharacter()
+                }) {
+                    Image(systemName: "plus.circle.fill")
+                        .font(.title)
+                }
+            )
         }
+    }
+    
+    private func characterBinding(for character: RPGCharacter) -> Binding<RPGCharacter> {
+        guard let index = characterStore.characters.firstIndex(where: { $0.id == character.id }) else {
+            fatalError("Character not found in store")
+        }
+        
+        return $characterStore.characters[index]
     }
 }
 
 struct CharacterDetailView: View {
-    @ObservedObject var character: RPGCharacter
+    @Binding var character: RPGCharacter
     @ObservedObject var characterStore: RPGCharacterStore
     
     var body: some View {
